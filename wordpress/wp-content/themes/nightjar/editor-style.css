@@ -1,0 +1,215 @@
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+  *:before, *:after {
+    box-sizing: inherit; }
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #333;
+  color: #f9f9f9;
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-size: 1em;
+  line-height: 1.617;
+  text-rendering: optimizeLegibility; }
+
+a {
+  color: #f9f9f9;
+  transition: all 400ms ease-out; }
+  a:visited {
+    color: #cca6e7; }
+  a:hover, a:active, a:focus {
+    color: #cca6e7;
+    text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alegreya", "Georgia", serif;
+  line-height: 1.33;
+  margin: 0; }
+
+p {
+  margin: 0 0 1.617em 0; }
+
+img,
+figure {
+  margin: 0;
+  max-width: 100%;
+  height: auto; }
+
+blockquote {
+  font-family: "Alegreya", "Georgia", serif;
+  line-height: 1.4;
+  margin: 0.8085em 0;
+  padding-left: 50px;
+  position: relative; }
+  blockquote cite {
+    display: block;
+    margin-top: 0.8085em; }
+  blockquote:before {
+    font-family: "Genericons";
+    content: '\f106';
+    font-size: 2.5em;
+    color: #cca6e7;
+    position: absolute;
+    top: -15px;
+    left: 0px; }
+
+table {
+  border: 1px solid #f9f9f9;
+  margin: 0.8085em 0;
+  max-width: 100%; }
+  table tr {
+    border: 1px solid #f9f9f9; }
+    table tr:nth-child(2n) {
+      background-color: rgba(51, 51, 51, 0.6); }
+  table td, table th {
+    border: 1px solid #f9f9f9;
+    padding: 5px 12px; }
+
+ul, ol {
+  margin: 0.8085em 0;
+  padding-left: 1.617em; }
+  ul ul, ul ol, ol ul, ol ol {
+    margin: 0; }
+
+dl {
+  margin: 0.8085em 0; }
+  dl dt {
+    font-weight: bold; }
+  dl dd {
+    margin: 0.40425em 0 0.8085em; }
+
+abbr[title],
+acronym {
+  border-bottom: 1px dashed #eee;
+  cursor: help; }
+
+code, kbd, tt {
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 3px;
+  font-size: 1em;
+  padding: 2px; }
+
+ins, var {
+  background-color: yellow;
+  color: #333;
+  border-radius: 3px;
+  padding: 2px;
+  text-decoration: none; }
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: transparent;
+  border: 1px solid #f9f9f9;
+  color: #f9f9f9;
+  padding: 5px 12px;
+  transition: all 400ms ease-out; }
+  button:hover, button:focus,
+  input[type="button"]:hover,
+  input[type="button"]:focus,
+  input[type="submit"]:hover,
+  input[type="submit"]:focus,
+  input[type="reset"]:hover,
+  input[type="reset"]:focus {
+    background-color: #f9f9f9;
+    color: #333; }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"] {
+  -webkit-appearance: none;
+  border: 1px solid #eee;
+  color: #333;
+  padding: 5px 12px;
+  /* a bit of extra padding for a better look when next to buttons */ }
+
+textarea {
+  border: 1px solid #eee;
+  color: #333;
+  padding: 3px; }
+
+embed,
+iframe,
+object {
+  max-width: 100%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin: 0 1.617em 1.617em 0; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin: 0 0 1.617em 1.617em; }
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto; }
+
+.wp-caption {
+  margin-bottom: 0.8085em;
+  max-width: 100%; }
+  .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .wp-caption .wp-caption-text {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: right; }
+
+.gallery {
+  margin-bottom: 1.617em; }
+
+.gallery-caption {
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  line-height: 1.4; }
+
+.gallery-item {
+  display: inline-block;
+  margin-bottom: 0.8085em;
+  text-align: center;
+  vertical-align: top;
+  width: 100%; }
+  .gallery-columns-2 .gallery-item {
+    max-width: 50%; }
+  .gallery-columns-3 .gallery-item {
+    max-width: 33.33333%; }
+  .gallery-columns-4 .gallery-item {
+    max-width: 25%; }
+  .gallery-columns-5 .gallery-item {
+    max-width: 20%; }
+  .gallery-columns-6 .gallery-item {
+    max-width: 16.66667%; }
+  .gallery-columns-7 .gallery-item {
+    max-width: 14.28571%; }
+  .gallery-columns-8 .gallery-item {
+    max-width: 12.5%; }
+  .gallery-columns-9 .gallery-item {
+    max-width: 11.11111%; }
+
+body#tinymce {
+  padding: 0.8085em 0.539em; }
+
+/*# sourceMappingURL=editor-style.css.map */
